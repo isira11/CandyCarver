@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0ba30e4ddfc4cf5942f54d5531048e, type: 3}
+  m_Name: Shapes
+  m_EditorClassIdentifier: 
+  textures: []
+  candyDatas:
+  - id: p1
+    t1: {fileID: 2800000, guid: 78098db4bd86a4f12846e4f56dd2a7d5, type: 3}
+    t2: {fileID: 2800000, guid: ffc1f7b344b7d4c639d9eefba83c1257, type: 3}
+    t3: {fileID: 2800000, guid: eb49b15aeb9c248238d3f7685fce112a, type: 3}
+    t4: {fileID: 2800000, guid: 8fee2a486bf1a423094dfdf8ba6e8322, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p2
+    t1: {fileID: 2800000, guid: e2b9b86b34ca74bc4a5b3f3b818dc561, type: 3}
+    t2: {fileID: 2800000, guid: f1dbee62d189444cf85be5e8e82a0fdb, type: 3}
+    t3: {fileID: 2800000, guid: 0b71b2f152b7e4152a6161580f9d53e6, type: 3}
+    t4: {fileID: 2800000, guid: b05c11c88854f40b4800d96e50e78d87, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p3
+    t1: {fileID: 2800000, guid: 94f29a3a0618048e79feaf7f8b41dcfe, type: 3}
+    t2: {fileID: 2800000, guid: 7e2b6c1d1d7aa469c993a265ce2f2fda, type: 3}
+    t3: {fileID: 2800000, guid: 3ea4f0274b5a54d02b45e202c91e5dc5, type: 3}
+    t4: {fileID: 2800000, guid: 39d99374c4ab54458bfe1307c4370a5c, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p4
+    t1: {fileID: 2800000, guid: 954017368a93e497f9cb658715db7f0a, type: 3}
+    t2: {fileID: 2800000, guid: 093d1bf7dec054c0dad12703c334d35b, type: 3}
+    t3: {fileID: 2800000, guid: 10e44102d5f674ff185d6ed7475d6c12, type: 3}
+    t4: {fileID: 2800000, guid: 80fd9960f46af432d93fc573bc129c5c, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p5
+    t1: {fileID: 2800000, guid: 50845a840deea4e278ce03db913357bb, type: 3}
+    t2: {fileID: 2800000, guid: b05fe940338cd4943b72b0183db67198, type: 3}
+    t3: {fileID: 2800000, guid: 2caf6193e2173466eac2654b46c19b3a, type: 3}
+    t4: {fileID: 2800000, guid: 9ae232e95fc84448abb3bad70cb074bd, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p6
+    t1: {fileID: 2800000, guid: 39f1fea166b7e4723b99e546170c1d20, type: 3}
+    t2: {fileID: 2800000, guid: eb8ea76ffb6cf49af95729c1d17a5450, type: 3}
+    t3: {fileID: 2800000, guid: b43b5ad1a9f514eca89d0e366bc02a87, type: 3}
+    t4: {fileID: 2800000, guid: a7afaec9fbeea424c9b17387393007bb, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p7
+    t1: {fileID: 2800000, guid: fc91f93e58b3b4422b886d23c848b399, type: 3}
+    t2: {fileID: 2800000, guid: aa3a9bd2cb7e14975929155ce20b63d2, type: 3}
+    t3: {fileID: 2800000, guid: ec20b2404e4b74873ae11493607af05d, type: 3}
+    t4: {fileID: 2800000, guid: 5b23e237c0c7f4c03a97d71eea4c5ada, type: 3}
+    t5: {fileID: 2800000, guid: bafd0095a4d9641e19b7c18033271e32, type: 3}
+    ad_unloackable: 0
+  - id: p8
+    t1: {fileID: 2800000, guid: 442e925b2f5c74433876c10a31a5f2f0, type: 3}
+    t2: {fileID: 2800000, guid: 52550e90daf984dec83a73b358fe9f9c, type: 3}
+    t3: {fileID: 2800000, guid: e63b72062eb744048bb50ea914128739, type: 3}
+    t4: {fileID: 2800000, guid: 975fe21b4e0614bf6ba552f381a3067b, type: 3}
+    t5: {fileID: 2800000, guid: 9e2a2605d53ce4409982ca690fa9cb3e, type: 3}
+    ad_unloackable: 0
+  - id: p9
+    t1: {fileID: 2800000, guid: 0858376526bda42d6b4db0a0cf490f09, type: 3}
+    t2: {fileID: 2800000, guid: 0db1964e2373d4f3d930d8485d192dcb, type: 3}
+    t3: {fileID: 2800000, guid: b70e2df4a0e5044548af9736862dd5e8, type: 3}
+    t4: {fileID: 2800000, guid: 27458b65ced94492ab30d2f446c2d016, type: 3}
+    t5: {fileID: 2800000, guid: 25ee3a0d4f1ca4602b6f2b96f2dd9614, type: 3}
+    ad_unloackable: 0
+  - id: p10
+    t1: {fileID: 2800000, guid: fcac9d2f79b754a89bef7eb4cc3436d4, type: 3}
+    t2: {fileID: 2800000, guid: bd004815ae2844364a535d0cb68f88ca, type: 3}
+    t3: {fileID: 2800000, guid: 70fa9a7f3f0be490fa729ebf6e58ee64, type: 3}
+    t4: {fileID: 2800000, guid: 33eac675605ac49598df2214039e57e4, type: 3}
+    t5: {fileID: 2800000, guid: f3bf78df20c424da18d075097958c301, type: 3}
+    ad_unloackable: 0
+  - id: p11
+    t1: {fileID: 2800000, guid: 2b18b7707fc044cee9494e069d275cd8, type: 3}
+    t2: {fileID: 2800000, guid: 7d905ddda2cf7425bb6358c47ff1e929, type: 3}
+    t3: {fileID: 2800000, guid: 440e2bb8f05cb4d1a9e8d8c36f090335, type: 3}
+    t4: {fileID: 2800000, guid: 8d7b529b4fc3a49fcbac81cc27c08edb, type: 3}
+    t5: {fileID: 2800000, guid: efccd6c13ec364cfdab05c3e7892c6e9, type: 3}
+    ad_unloackable: 0
+  - id: p12
+    t1: {fileID: 2800000, guid: 4528a79ee3065471e887d39b6de46197, type: 3}
+    t2: {fileID: 2800000, guid: 2075d67eebdfb406fa6921b696904d8f, type: 3}
+    t3: {fileID: 2800000, guid: dbe02594f997442cf9ff0b46cb78b5a9, type: 3}
+    t4: {fileID: 2800000, guid: fff78d20d85ce4a709da5365c1561fde, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p13
+    t1: {fileID: 2800000, guid: 253759ff2fbf4461ea3038e934890b7f, type: 3}
+    t2: {fileID: 2800000, guid: e1a99797417a140958c4cdc124164e3a, type: 3}
+    t3: {fileID: 2800000, guid: 6f13997bc86ad481d882efa1ac5b2ef2, type: 3}
+    t4: {fileID: 2800000, guid: 85bfe183960444c569c23b40b737a5e4, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p14
+    t1: {fileID: 2800000, guid: 961baf4388d18482e87227877ac9729f, type: 3}
+    t2: {fileID: 2800000, guid: 58c6633e129c64fa6a01119fa1098431, type: 3}
+    t3: {fileID: 2800000, guid: 56ca4f3c4eaaf48ae9cac2800ca4a8fe, type: 3}
+    t4: {fileID: 2800000, guid: 2822719012fb24794a53eb1524e08a9c, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
+  - id: p15
+    t1: {fileID: 2800000, guid: fad4a353b3b63435384702a88a349460, type: 3}
+    t2: {fileID: 2800000, guid: e2410606e562e4d7095471d03f0ce037, type: 3}
+    t3: {fileID: 2800000, guid: 9a20ee683253043088dcd0c0f55351e6, type: 3}
+    t4: {fileID: 2800000, guid: 43d86fe24a00d460ca4f3cddebc885df, type: 3}
+    t5: {fileID: 2800000, guid: b09551a598fc7425382d3d9e806a24c4, type: 3}
+    ad_unloackable: 0
+  - id: p16
+    t1: {fileID: 2800000, guid: 8dd88a1f68d09402f934d6343b82195a, type: 3}
+    t2: {fileID: 2800000, guid: c319cc938e87e4471a4a4be06638be4a, type: 3}
+    t3: {fileID: 2800000, guid: 2d89659e617c3490b871834e75b2d221, type: 3}
+    t4: {fileID: 2800000, guid: 511c9d02754c94e52ba9ee5611837c80, type: 3}
+    t5: {fileID: 2800000, guid: bcc077cdf922841f68e1d8edd79cb076, type: 3}
+    ad_unloackable: 0
+  - id: p17
+    t1: {fileID: 2800000, guid: 872e96cf735534cfca305504bb3d49b1, type: 3}
+    t2: {fileID: 2800000, guid: e246c7af58d3d4036ad401c3e95b93f2, type: 3}
+    t3: {fileID: 2800000, guid: a8bf20b4275c449b5a46cc0c057c85b2, type: 3}
+    t4: {fileID: 2800000, guid: f7eb5a1af98ed4cb3a02dadf96846a31, type: 3}
+    t5: {fileID: 2800000, guid: 8df5cec3664474fceb738f529aacdc94, type: 3}
+    ad_unloackable: 0
+  - id: p18
+    t1: {fileID: 2800000, guid: e477c1bbe700746fba4c64767592e166, type: 3}
+    t2: {fileID: 2800000, guid: 9b202cf9d4527446e9a33913cd1bade9, type: 3}
+    t3: {fileID: 2800000, guid: 10053218fe2224acba7473a4c872e610, type: 3}
+    t4: {fileID: 2800000, guid: 15396f3ec698144fa9a8d6548c80dfe2, type: 3}
+    t5: {fileID: 2800000, guid: 8111e5821c9534edc90097587e47723c, type: 3}
+    ad_unloackable: 0
+  - id: p19
+    t1: {fileID: 2800000, guid: 81cb16dcebf4446c6a54aa266691cd22, type: 3}
+    t2: {fileID: 2800000, guid: 9adebe7214284462baf7442de63d9b96, type: 3}
+    t3: {fileID: 2800000, guid: 2afaed678e16240e987c0ea21adb848a, type: 3}
+    t4: {fileID: 2800000, guid: 4c2c20b857a644a7385c3dda29d48325, type: 3}
+    t5: {fileID: 2800000, guid: cc2d772f941dd4840871d90ea5396d5e, type: 3}
+    ad_unloackable: 0
+  - id: p20
+    t1: {fileID: 2800000, guid: 5bc711d90dea04022b853bd1e398554a, type: 3}
+    t2: {fileID: 2800000, guid: 4fea11ad0001249bcb820b9a249a68e1, type: 3}
+    t3: {fileID: 2800000, guid: 50d67c46a37e7446a95e7a1796780bf2, type: 3}
+    t4: {fileID: 2800000, guid: 62f7334af6e974a35a8e0ca9df57d68a, type: 3}
+    t5: {fileID: 0}
+    ad_unloackable: 0
