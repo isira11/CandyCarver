@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using EasyButtons;
 using GoogleMobileAds.Api;
+using UnityEngine.Purchasing;
 using System;
 
 [CreateAssetMenu(menuName = "LinkedDataSO", order = 1)]
@@ -49,11 +50,6 @@ public class LinkedDataSO : ScriptableObject
 
         PurchaseTool(DEFAULT);
         PurchaseShape(DEFAULT);
-        PurchaseTool("tool_1");
-
-
-
-        Debug.Log("Init");
 
     }
 
@@ -245,6 +241,5 @@ public class LinkedDataSO : ScriptableObject
 
         }
     }
-
 
 }

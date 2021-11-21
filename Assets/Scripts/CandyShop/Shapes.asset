@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textures: []
   candyDatas:
-  - id: p1
+  - id: DEFAULT
     t1: {fileID: 2800000, guid: 78098db4bd86a4f12846e4f56dd2a7d5, type: 3}
     t2: {fileID: 2800000, guid: ffc1f7b344b7d4c639d9eefba83c1257, type: 3}
     t3: {fileID: 2800000, guid: eb49b15aeb9c248238d3f7685fce112a, type: 3}
